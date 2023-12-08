@@ -18,6 +18,12 @@
   outline: .5rem dotted blueviolet;
 }
 
+@media (prefers-contrast: more) {
+  :root { --tape-blaq: midnightblue }
+  ::selection { background: purple }
+  :focus { outline-color: indigo }
+}
+
 .poft {
   text-shadow:
     0 1vh 0 blueviolet,
