@@ -4,9 +4,8 @@
 /* play */
 
 :root {
-  --tape-play: #e2e;
   --tape-luvu: aquamarine;
-  --tape-blaq: chocolate;
+  --tape-blaq: blueviolet;
 }
 
 ::selection {
@@ -26,8 +25,8 @@
 
 .poft {
   text-shadow:
-    0 1vh 0 blueviolet,
-    0 2vh 0 darkviolet,
+    0 1vh 0 darkviolet,
+    0 2vh 0 salmon,
     -2rem -2rem 2pc magenta,
     -1rem -1rem 1pc magenta,
     3rem -3rem 3pc cyan,
